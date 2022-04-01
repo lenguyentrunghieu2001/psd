@@ -1,0 +1,68 @@
+:root {
+    --font-family-bebas: "Bebas Neue", cursive;
+    --font-family-Helvetica: Helvetica, sans-serif;
+    --color474747: #474747;
+    --colorbdbdbd: #bdbdbd;
+    --color5f5f5f: #5f5f5f;
+    --color464646: #464646;
+    --width: 940px;
+    --margin: 30px auto 0px;
+  }
+.about-card{
+    width: var(--width);
+    margin: var(--margin);
+}
+.row{
+    margin-bottom: 0;
+}
+.card{
+    border: none;
+    font-size: 12px;
+    font-family: var(--font-family-Helvetica);
+}
+
+.card-item__title{
+    font-size: 18px;
+    color: var(--color464646);
+    font-family: var(--font-family-bebas);
+}
+.card-item__content{
+    margin: 20px 0;
+    color: var(--colorbdbdbd);
+}
+.card-item__contentmain{
+  color: #474747;
+}
+
+.card-item{
+    font-size: 12px;
+    font-family: var(--font-family-Helvetica);
+}
+.card-item__content1 {
+    margin:10px 10px;
+    font-family: var(--font-family-bebas);
+    display: flex;
+    justify-content: space-between;
+}
+
+.infomation__name{
+    font-size: 18px;
+    color: var(--color464646);
+}
+
+.infomation__job{
+   color: var(--colorbdbdbd);
+}
+
+.coin{
+    color: var(--color464646);
+}
+
+.card-item__contentmain1{
+    margin:0px 10px;
+    padding-bottom: 80px;
+}
+
+.about-card__img{
+    margin: 50px 0 30px 0;
+}
